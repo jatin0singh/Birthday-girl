@@ -1,0 +1,543 @@
+ /* Basic Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: rgb(192, 9, 70);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FF1493;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+#special, #special-1 {
+  margin-top: 20px;
+  color:orange;
+}
+
+.softy {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #8B008B;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 30px;
+  color: #FF6347;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #FFFFFF;
+  background-color: #FF1493;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a:hover {
+  background-color: #FF69B4;
+}
+
+/* Special Button Styles */
+.special-btn {
+  background-color: #FF6347;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+.special-btn:hover {
+  transform: scale(1.1);
+  background-color: #FF4500;
+}
+
+/* Hidden Section (reveal on click) */
+#message-section {
+  margin-top: 30px;
+  background-color: #FFF0F5;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #FF1493;
+}
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: palegoldenrod;
+  text-align: center;
+}
+
+/* Container for the main content */
+.first-color {
+  padding: 20px;
+  background-color: #ff69b4;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+.darling {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the text paragraph */
+.softy {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Styling for the link (CTA button) */
+.cta-section a {
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #ff1493;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-section a:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  text-align: center;
+}
+
+/* Container for the photo section */
+.photo {
+  background-color: #ff69b4;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the main heading */
+h2 {
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Styling for fatigue message */
+.fatigue-message p {
+  font-size: 1.5em;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Styling for the large text */
+h1 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-top: 40px;
+}
+
+/* Styling for the solution text */
+.second-left {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Styling for the link button */
+.cta-section a {
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #ff1493;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 30px;
+}
+
+.cta-section a:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf1f6;
+  text-align: center;
+}
+
+/* Container for content */
+#third {
+  padding: 30px;
+  background-color: #ff69b4;
+  border-radius: 15px;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: #fff;
+}
+
+/* Personal Info section */
+.personal-info ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+.personal-info li {
+  margin: 10px 0;
+}
+
+/* Why Hire section */
+.why-hire p {
+  font-size: 1.5em;
+  color: #fff;
+  margin: 10px 0;
+}
+
+/* No further details section */
+.no-details h1 {
+  font-size: 1.8em;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+/* Buttons styling */
+.cta-buttons a {
+  font-size: 1.5em;
+  padding: 12px 24px;
+  margin: 20px 10px;
+  color: #fff;
+  background-color: #ff1493;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-buttons a:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+/* Card Style */
+.card {
+  background-color: #ffebf0;
+  padding: 20px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #ff1493;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Gift Button */
+.gift-button {
+  font-size: 1.5em;
+  padding: 15px 30px;
+  background-color: #ff1493;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.gift-button:hover {
+  background-color: #ff69b4;
+  transform: scale(1.1);
+}
+/* Basic container styles */
+.container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #FF1493;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.dress {
+  cursor: pointer;
+}
+
+.dress img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #FF1493;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #FF69B4;
+}
+
+.more-button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  background-color: #FF6347;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.more-button:hover {
+  background-color: #FF4500;
+}
+
+#status {
+  font-size: 1.2em;
+  color: #28a745;
+  margin-top: 20px;
+}
+/* Body and General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  text-align: center;
+  color: #333;
+}
+
+/* Container to hold everything */
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Main heading */
+#beautiful {
+  font-size: 3em;
+  color: #FF1493;
+  margin-bottom: 20px;
+}
+
+/* Styling for the intro paragraph */
+.container p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Photo Gallery Layout */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.photo {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect for images */
+.photo:hover img {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+/* Styling for the love message paragraph */
+.love-message {
+  font-size: 1.3em;
+  color: #FF1493;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #beautiful {
+      font-size: 2.5em;
+  }
+
+  .container p {
+      font-size: 1.1em;
+  }
+
+  .love-message {
+      font-size: 1.2em;
+  }
+}
+ /* Body and General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+/* Go-back message styles */
+.go-back {
+  background-color: #ffebf0;
+  padding: 40px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+  font-size: 2.5em;
+  color: #ff1493;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.content {
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+/* Subheading */
+h2 {
+  font-size: 1.8em;
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+/* Link button styles */
+a.softy {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #ff1493;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+a.softy:hover {
+  background-color: #ff69b4;
+  transform: scale(1.1);
+}
+.bandriyaa-button {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #4caf50;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 30px;
+}
+
+.bandriyaa-button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Dress 🎁</title>
+    
+    <!-- EmailJS SDK (Optional, not used here) -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>💖 Choose Your Birthday Dress 🎁</h2>
+        <p>Select a dress, and I'll buy it for you! ❤️</p>
+
+        <div class="gallery">
+            <div class="dress" onclick="selectDress('Red Elegant Dress')">
+                <img src="Red dress.jpg" alt="Red Dress">
+                <button>Select Red Dress ❤️</button>
+            </div>
+            
+            <div class="dress" onclick="selectDress('Blue Princess Dress')">
+                <img src="Navy blue.jpg" alt="Blue Dress">
+                <button>Select Blue Dress 💙</button>
+            </div>
+            
+            <div class="dress" onclick="selectDress('Black Party Dress')">
+                <img src="Black dress.jpg" alt="Black Dress">
+                <button>Select Black Dress 🖤</button>
+            </div>
+        </div>
+
+        <!-- New Button: Click Here for More -->
+        <button  class="more-button"  onclick="moreDresses('details')">Click Here for More ➡️</button>
+
+        <p id="status"></p> <!-- Show success message -->
+
+        <a href="sixth.html" class="bandriyaa-button">Tap to See Bandriyaa 👗</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
