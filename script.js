@@ -25,7 +25,7 @@ function moreDresses() {
 // Example function to send a WhatsApp notification (if Twilio is set up)
 function sendWhatsAppNotification(dressName) {
     const accountSID = "AC42f9bbed55837cd516a6a899fdb7ff63";  // Replace with your Twilio Account SID
-    const authToken = "76cca039dd20409fd41b6267a851df4c";  // Replace with your Twilio Auth Token
+    const authToken = "df05fb452ee0e4351b677ec96c011484";  // Replace with your Twilio Auth Token
     const fromWhatsAppNumber = "whatsapp:+14155238886";  // Twilio WhatsApp Sandbox Number
     const toWhatsAppNumber = "whatsapp:+916006885526";  // Replace with your WhatsApp number
 
